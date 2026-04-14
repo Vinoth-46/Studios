@@ -2,6 +2,13 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
+    image: '/images/portfolio-vinotreats.png',
+    bgClass: 'treat-bg',
+    tag: 'Food Delivery',
+    title: 'VinoTreats — Custom Food Ordering & Restaurant Platform',
+    link: 'https://full-stack-yldm.onrender.com'
+  },
+  {
     image: '/images/portfolio-restaurant.png',
     bgClass: 'rest-bg',
     tag: 'Restaurant',
@@ -26,6 +33,7 @@ const projects = [
     title: 'Nexus Consulting — Corporate & Services Website'
   }
 ]
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
@@ -55,7 +63,10 @@ export default function Portfolio() {
       <div className="port-content">
         <div className="port-grid">
           {projects.map((proj, i) => (
-            <motion.div
+            <motion.a
+              href={proj.link || '#contact'}
+              target={proj.link ? '_blank' : '_self'}
+              rel="noopener noreferrer"
               className="port-card"
               key={i}
               custom={i}
@@ -63,6 +74,7 @@ export default function Portfolio() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: '-50px' }}
+              style={{ textDecoration: 'none', cursor: 'pointer' }}
             >
               <div className={`port-thumb ${proj.bgClass}`}>
                 <img
@@ -75,12 +87,12 @@ export default function Portfolio() {
                 <div className="port-tag">{proj.tag}</div>
                 <h4>{proj.title}</h4>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
 
         {/* Device slot — laptop sits alongside the portfolio grid */}
-        <div className="device-slot device-slot-portfolio" data-section="portfolio" />
+
       </div>
     </section>
   )

@@ -52,7 +52,7 @@ export default function Services() {
           <p className="sec-sub">From restaurants to retail, we design websites that look incredible and perform even better.</p>
         </div>
         {/* Device slot — laptop appears here in the services header */}
-        <div className="device-slot" data-section="services" />
+
       </motion.div>
 
       <div className="services-grid">

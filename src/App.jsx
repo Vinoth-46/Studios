@@ -5,23 +5,25 @@ import Services from './components/Services'
 import Process from './components/Process'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Pricing from './components/Pricing'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import ParallaxDevice from './components/ParallaxDevice'
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <ParallaxDevice />
       <Hero />
       <Ticker />
       <Services />
       <Process />
       <Portfolio />
+      <Pricing />
       <About />
       <Contact />
       <Footer />
     </>
   )
 }
+
+

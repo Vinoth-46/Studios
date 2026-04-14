@@ -14,8 +14,9 @@ export default function Navbar() {
   const links = [
     { href: '#services', label: 'Services' },
     { href: '#process', label: 'Process' },
-    { href: '#about', label: 'About' },
     { href: '#portfolio', label: 'Work' },
+    { href: '#pricing', label: 'Pricing' },
+    { href: '#about', label: 'About' },
   ]
 
   const handleClick = () => setMobileOpen(false)

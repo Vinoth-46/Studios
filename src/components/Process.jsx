@@ -51,7 +51,7 @@ export default function Process() {
         </div>
 
         {/* Device slot — laptop replaces the mockup visual here */}
-        <div className="device-slot device-slot-process" data-section="process" />
+
       </div>
     </section>
   )

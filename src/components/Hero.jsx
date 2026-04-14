@@ -35,7 +35,7 @@ export default function Hero() {
         </div>
 
         {/* Device slot — this is where the laptop appears in the hero */}
-        <div className="device-slot" data-section="home" />
+
       </div>
 
       <motion.div className="hero-stats" {...fadeUp(0.65)}>

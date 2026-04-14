@@ -2,27 +2,28 @@ import { motion } from 'framer-motion'
 
 const team = [
   {
-    initial: 'T',
-    name: 'Founder One',
-    role: 'Design Lead',
-    color: '#1B4FD8',
-    desc: 'Crafts the visual identity and user experience for every project. Obsessed with the details that make people stop and stare.'
+    initial: 'P',
+    name: 'Praveen joshwa .B',
+    role: 'Strategy Lead',
+    color: '#993C1D',
+    desc: 'Bridges client goals with creative solutions. Makes sure every website doesn\'t just look great — it performs.'
   },
   {
     initial: 'T',
-    name: 'Founder Two',
+    name: 'Tamilarasu .V',
     role: 'Development Lead',
     color: '#0F6E56',
     desc: 'Turns designs into fast, flawless websites. Ensures every pixel is perfect and every interaction is buttery smooth.'
   },
   {
-    initial: 'T',
-    name: 'Founder Three',
-    role: 'Strategy Lead',
-    color: '#993C1D',
-    desc: 'Bridges client goals with creative solutions. Makes sure every website doesn\'t just look great — it performs.'
+    initial: 'V',
+    name: 'Vinoth .M',
+    role: 'Design Lead',
+    color: '#1B4FD8',
+    desc: 'Crafts the visual identity and user experience for every project. Obsessed with the details that make people stop and stare.'
   }
 ]
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 30 },

@@ -39,11 +39,11 @@ export default function Contact() {
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <a href="mailto:hello@triova.studio" className="btn-white">
+        <a href="mailto:triovapvt26@gmail.com" className="btn-white">
           <Mail size={16} style={{ marginRight: '0.5rem', verticalAlign: 'middle' }} />
-          hello@triova.studio
+          triovapvt26@gmail.com
         </a>
-        <a href="https://wa.me/91XXXXXXXXXX" className="btn-outline">
+        <a href="https://wa.me/919944379876?text=Hi%20Triova%2C%20I%20want%20to%20know%20more%20about%20your%20services!%20I'm%20interested%20in%20a%20website%20quote." className="btn-outline">
           <MessageCircle size={16} style={{ marginRight: '0.5rem', verticalAlign: 'middle' }} />
           WhatsApp Us
         </a>
