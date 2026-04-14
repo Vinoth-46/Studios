@@ -8,7 +8,7 @@ const plans = [
     price: '₹7,000',
     icon: <Zap size={24} />,
     features: [
-      'Single Page Design',
+      'Static Website Design',
       'Fully Responsive Layout',
       'Basic SEO Optimization',
       'Contact Form Integration',
@@ -23,8 +23,8 @@ const plans = [
     price: '₹21,000',
     icon: <Rocket size={24} />,
     features: [
-      'Up to 5 Custom Pages',
-      'Premium UI/UX Design',
+      'Dynamic Website Design',
+      'Up to 5 Premium Pages',
       'Speed & Performance Focus',
       'Google Maps & Analytics',
       'Social Media Integration',
@@ -38,16 +38,17 @@ const plans = [
     price: '₹35,000',
     icon: <Building size={24} />,
     features: [
+      'Advanced Full-Stack Solution',
       'Full Online Store (E-Commerce)',
       'Secure Payment Gateway',
       'Inventory Management',
       'WhatsApp API Integration',
-      'Advanced On-Page SEO',
       '3 Months Priority Support'
     ],
     highlight: false
   }
 ]
+
 
 
 
