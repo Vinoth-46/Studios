@@ -23,16 +23,11 @@ const projects = [
     link: 'https://massshoes.netlify.app/'
   },
   {
-    image: '/images/portfolio-ecommerce.png',
+    image: '/images/portfolio-vinocasuals.png',
     bgClass: 'eco-bg',
     tag: 'E-Commerce',
-    title: 'StyleVault — Online Fashion Store'
-  },
-  {
-    image: '/images/portfolio-corporate.png',
-    bgClass: 'biz-bg',
-    tag: 'Business',
-    title: 'Nexus Consulting — Corporate & Services Website'
+    title: 'vinoCasuals — Modern Fashion & Apparel Store',
+    link: 'https://vinocasuals.netlify.app/'
   }
 ]
 
