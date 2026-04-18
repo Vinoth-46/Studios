@@ -6,25 +6,29 @@ const services = [
     num: '01',
     icon: <UtensilsCrossed size={24} />,
     title: 'Restaurant & Café Websites',
-    desc: 'Mouth-watering designs with online menus, reservation systems, and the ambiance your brand deserves online.'
+    desc: 'Mouth-watering designs with online menus, reservation systems, and the ambiance your brand deserves online.',
+    image: '/images/svc-restaurant.png'
   },
   {
     num: '02',
     icon: <Dumbbell size={24} />,
     title: 'Gym & Fitness Studios',
-    desc: 'High-energy sites with class schedules, membership plans, and trainer profiles that inspire visitors to join.'
+    desc: 'High-energy sites with class schedules, membership plans, and trainer profiles that inspire visitors to join.',
+    image: '/images/svc-fitness.png'
   },
   {
     num: '03',
     icon: <ShoppingCart size={24} />,
     title: 'E-Commerce Stores',
-    desc: 'Fully functional online stores with seamless checkout, product showcases, and conversion-optimised flows.'
+    desc: 'Fully functional online stores with seamless checkout, product showcases, and conversion-optimised flows.',
+    image: '/images/svc-ecommerce.png'
   },
   {
     num: '04',
     icon: <Building2 size={24} />,
     title: 'Business & Corporate Sites',
-    desc: 'Professional websites for startups, agencies, and enterprises that build trust and drive real enquiries.'
+    desc: 'Professional websites for startups, agencies, and enterprises that build trust and drive real enquiries.',
+    image: '/images/svc-corporate.png'
   }
 ]
 
@@ -66,8 +70,13 @@ export default function Services() {
             whileInView="visible"
             viewport={{ once: true, margin: '-50px' }}
           >
-            <span className="svc-num">{svc.num}</span>
-            <div className="svc-icon">{svc.icon}</div>
+            <div className="svc-card-head">
+              <div className="svc-icon">{svc.icon}</div>
+              <span className="svc-num">{svc.num}</span>
+            </div>
+            <div className="svc-img-wrap">
+              <img src={svc.image} alt={svc.title} className="svc-image" />
+            </div>
             <h3>{svc.title}</h3>
             <p>{svc.desc}</p>
           </motion.div>

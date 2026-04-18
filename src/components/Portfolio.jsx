@@ -9,16 +9,18 @@ const projects = [
     link: 'https://full-stack-yldm.onrender.com'
   },
   {
-    image: '/images/portfolio-restaurant.png',
-    bgClass: 'rest-bg',
-    tag: 'Restaurant',
-    title: 'Spice Garden — Full Dining Experience Website'
+    image: '/images/portfolio-kitchaa.png',
+    bgClass: 'kitchaa-bg',
+    tag: 'Civil Engineering',
+    title: "KITCHAA'S ENTERPRISE — Civil Engineering & Consultancy",
+    link: 'https://kitchaa-enterprise.netlify.app/'
   },
   {
-    image: '/images/portfolio-gym.png',
-    bgClass: 'gym-bg',
-    tag: 'Fitness',
-    title: 'Shaper Fitness Zone — Gym & Membership Website'
+    image: '/images/portfolio-massshoes.png',
+    bgClass: 'mass-bg',
+    tag: 'E-Commerce',
+    title: 'Mass Shoes — Premium Athletic Footwear Experience',
+    link: 'https://massshoes.netlify.app/'
   },
   {
     image: '/images/portfolio-ecommerce.png',
