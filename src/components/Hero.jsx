@@ -24,9 +24,9 @@ export default function Hero() {
             We craft <em>digital</em><br />experiences that<br />convert.
           </motion.h1>
 
-          <motion.p {...fadeUp(0.12)}>
+          <p className="hero-description">
             Triova is a boutique web design studio founded by three friends — building stunning websites for restaurants, gyms, e-commerce stores, and businesses of every kind.
-          </motion.p>
+          </p>
  
           <motion.div className="hero-actions" {...fadeUp(0.24)}>
             <a href="#contact" className="btn-primary">

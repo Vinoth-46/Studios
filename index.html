@@ -37,8 +37,13 @@
       .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.65rem; font-weight: 600; color: var(--text); text-decoration: none; letter-spacing: -0.02em; }
       .logo span { color: var(--accent); }
       .hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 9rem 6% 4rem; position: relative; overflow: hidden; }
+      .hero-inner { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3rem; }
+      .hero-text { flex: 1; min-width: 0; }
       .hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(3rem, 5.5vw, 5.5rem); font-weight: 600; line-height: 1.05; letter-spacing: -0.03em; max-width: 900px; margin-bottom: 1.5rem; }
-      .hero-text > p { font-size: 1.05rem; color: var(--muted); max-width: 540px; margin: 0 auto 2.5rem; font-weight: 300; line-height: 1.85; }
+      .hero h1 em { font-style: italic; color: var(--accent); }
+      .hero-text > p, .hero-description { font-size: 1.05rem; color: var(--muted); max-width: 540px; margin: 0 auto 2.5rem; font-weight: 300; line-height: 1.85; }
+      .hero-actions { display: flex; gap: 1rem; align-items: center; justify-content: center; }
+      .btn-primary { font-size: 0.95rem; font-weight: 500; background: var(--text); color: #fff; padding: 0.85rem 2rem; border-radius: 100px; text-decoration: none; transition: all 0.3s ease; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.5rem; }
     </style>
 
     <!-- Fonts -->
