@@ -2,28 +2,28 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    image: '/images/portfolio-vinotreats.png',
+    image: '/images/portfolio-vinotreats.webp',
     bgClass: 'treat-bg',
     tag: 'Food Delivery',
     title: 'VinoTreats — Custom Food Ordering & Restaurant Platform',
     link: 'https://full-stack-yldm.onrender.com'
   },
   {
-    image: '/images/portfolio-kitchaa.png',
+    image: '/images/portfolio-kitchaa.webp',
     bgClass: 'kitchaa-bg',
     tag: 'Civil Engineering',
     title: "KITCHAA'S ENTERPRISE — Civil Engineering & Consultancy",
     link: 'https://kitchaa-enterprise.netlify.app/'
   },
   {
-    image: '/images/portfolio-massshoes.png',
+    image: '/images/portfolio-massshoes.webp',
     bgClass: 'mass-bg',
     tag: 'E-Commerce',
     title: 'Mass Shoes — Premium Athletic Footwear Experience',
     link: 'https://massshoes.netlify.app/'
   },
   {
-    image: '/images/portfolio-vinocasuals.png',
+    image: '/images/portfolio-vinocasuals.webp',
     bgClass: 'eco-bg',
     tag: 'E-Commerce',
     title: 'vinoCasuals — Modern Fashion & Apparel Store',
@@ -78,6 +78,7 @@ export default function Portfolio() {
                   src={proj.image}
                   alt={proj.title}
                   className="port-image"
+                  loading="lazy"
                 />
               </div>
               <div className="port-info">

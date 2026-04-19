@@ -12,11 +12,15 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-inner">
         <div className="hero-text">
-          <motion.div className="hero-badge" {...fadeUp(0.1)}>
+          <motion.div className="hero-badge" {...fadeUp(0)}>
             Web Design Studio — Est. 2025
           </motion.div>
 
-          <motion.h1 {...fadeUp(0.25)}>
+          <motion.h1 
+            initial={{ opacity: 0.2, y: 15 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 0.6, delay: 0.05, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
             We craft <em>digital</em><br />experiences that<br />convert.
           </motion.h1>
 
